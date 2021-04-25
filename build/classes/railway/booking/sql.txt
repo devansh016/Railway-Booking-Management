@@ -1,0 +1,24 @@
+Create table user
+(id char(20),
+pass char(20));
+
+insert into user values('admin','admin');
+
+Create table ticket
+(ticket_no char(40),
+train_no char(40),
+name char(40),
+phoneno char(40),
+age char(40),
+gender char(40),
+date date,
+charge int(10));
+
+Create table train
+(tno char(40),
+tname char(40),
+from char(40),
+to char(40),
+depature char(40),
+rent int(10),
+seats int(10);
